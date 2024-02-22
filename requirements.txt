@@ -1,0 +1,5 @@
+jsonlines
+pillow
+requests
+tenacity
+tqdm

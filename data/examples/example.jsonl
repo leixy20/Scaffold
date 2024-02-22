@@ -1,0 +1,3 @@
+{"question_id": 1, "image_path": "data/examples/imgs/1.jpg", "question": "Determine the following statement is true or false: The person is facing the banana.", "answer": 1, "relation": "facing"}
+{"question_id": 2, "image_path": "data/examples/imgs/2.jpg", "question": "Determine the following statement is true or false: The potted plant is in front of the bench.", "answer": 1, "relation": "in front of"}
+{"question_id": 3, "image_path": "data/examples/imgs/3.jpg", "question": "Determine the following statement is true or false: The bed is under the bicycle.", "answer": 0, "relation": "under"}
