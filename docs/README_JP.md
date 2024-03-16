@@ -11,7 +11,7 @@
 
 最先端の大規模マルチモーダルモデル（LMMs）は、視覚言語タスクにおいて優れた能力を示しています。高度な機能にもかかわらず、複数レベルの視覚情報を用いた複雑な推論が必要とされる困難なシナリオでは、LMMsのパフォーマンスはまだ限定的です。LMMsの既存のプロンプティング技術は、テキストによる推論の改善または画像前処理のためのツールの活用に焦点を当てており、LMMsにおける視覚言語調整を促進するシンプルで汎用的な視覚プロンプティング手法が欠けています。本研究では、視覚言語調整を促進するための足場となる座標をスキャフォールドするScaffoldプロンプティングを提案します。具体的には、Scaffoldは画像内にドットマトリックスを視覚情報のアンカーとして重ね合わせ、多次元座標をテキストの位置参照として活用します。様々な難しい視覚言語タスクでの広範な実験により、テキストのCoTプロンプティングを用いたGPT-4Vに対するScaffoldの優位性が実証されました。
 
-![overall](assets/overall.jpg)
+![overall](https://raw.githubusercontent.com/Sunwood-ai-labs/Scaffold-JP/main/assets/overall.jpg)
 
 Scaffoldの全体的なフレームワークを上図に示し、視覚言語調整を促進するための全体的なアプローチを説明しています。
 
@@ -71,7 +71,7 @@ python call-api.py \
 
 ## ⚙️ 手法
 
-![wino_example_1](assets/wino_example_1.jpg)
+![wino_example_1](https://raw.githubusercontent.com/Sunwood-ai-labs/Scaffold-JP/main/assets/wino_example_1.jpg)
 
 Scaffoldプロンプティングは、LMMsにおける視覚言語調整を強化するために設計されています。この手法には、画像のオーバーレイとテキストのガイドラインの両方が含まれています。したがって、視覚的および言語的な観点から手法の実装について紹介します。
 
@@ -109,9 +109,9 @@ Scaffoldプロンプティングは、LMMsにおける視覚言語調整を強�
 
 GPT-4Vを使用して11の難しい視覚言語ベンチマークで広範な実験を行い、結果は次のとおりです。
 
-![results](assets/results.jpg)
+![results](https://raw.githubusercontent.com/Sunwood-ai-labs/Scaffold-JP/main/assets/results.jpg)
 
-![active_perception](assets/active_perception.jpg)
+![active_perception](https://raw.githubusercontent.com/Sunwood-ai-labs/Scaffold-JP/main/assets/active_perception.jpg)
 
 さらに、Scaffoldと能動知覚を組み合わせ、V* Bench direct_attributesサブセットで実験を行いました。次に詳述する結果は、Scaffoldが能動知覚のための効果的な足場として機能できることを示しています。
 
