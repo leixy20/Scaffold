@@ -2,6 +2,13 @@
 
 This repository contains information, data and code of our paper: Scaffolding Coordinates to Promote Vision-Language Coordination in Large Multi-Modal Models.
 
+
+<div align="center">
+
+ | [日本語](docs/README_JP.md) | [English](README.md) |
+
+</div>
+
 ## 🔥 Updates
 
 [2024.02.22] We released the code to apply standard Scaffold prompting to vision-language tasks.
